@@ -13,6 +13,7 @@ const frontSortOrder = [
 
 const sortOrder = [
   'marvel',
+  'thehhub',
   'uber',
   'invision',
   'magic-leap',
@@ -163,6 +164,15 @@ const mapping = {
     height: 2200,
     internalUrl: 'tvpublica',
     tags: ['news']
+  },
+  thehhub: {
+    title: 'TheHHub',
+    link: 'https://www.thehhub.com',
+    src: '/static/images/showcases/thehhub.jpg',
+    width: 3836,
+    height: 2200,
+    internalUrl: 'thehhub',
+    tags: ['creative']
   },
   suburbia: {
     title: 'Suburbia',
