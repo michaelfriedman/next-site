@@ -13,7 +13,6 @@ const frontSortOrder = [
 
 const sortOrder = [
   'marvel',
-  'thehhub',
   'uber',
   'invision',
   'magic-leap',
@@ -107,7 +106,8 @@ const sortOrder = [
   'stargatecommand',
   'shakeshack',
   'coop',
-  'mprnews'
+  'mprnews',
+  'thehhub'
 ];
 
 const mapping = {
@@ -164,15 +164,6 @@ const mapping = {
     height: 2200,
     internalUrl: 'tvpublica',
     tags: ['news']
-  },
-  thehhub: {
-    title: 'TheHHub',
-    link: 'https://www.thehhub.com',
-    src: '/static/images/showcases/thehhub.jpg',
-    width: 3836,
-    height: 2200,
-    internalUrl: 'thehhub',
-    tags: ['creative']
   },
   suburbia: {
     title: 'Suburbia',
@@ -980,6 +971,15 @@ const mapping = {
     height: 2159,
     internalUrl: 'mprnews',
     tags: ['news']
+  },
+  thehhub: {
+    title: 'TheHHub',
+    link: 'https://www.thehhub.com',
+    src: '/static/images/showcases/thehhub.jpg',
+    width: 3836,
+    height: 2200,
+    internalUrl: 'thehhub',
+    tags: ['creative']
   }
 };
 
