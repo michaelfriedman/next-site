@@ -979,7 +979,6 @@ const mapping = {
     width: 3836,
     height: 2200,
     internalUrl: 'thehhub',
-    highlighted: 1,
     tags: ['creative']
   }
 };
